@@ -1,25 +1,21 @@
-// Fortnite-like Game Code for Google Apps Script
+// Código completo del Fortnite-Like en Google Apps Script
 
-function startGame() {
-    // Starting the game
-    Logger.log('Game has started!');
+function doGet(e) {
+  return HtmlService.createHtmlOutputFromFile('index');
 }
 
-function createCharacter(name) {
-    // Create a character with the given name
-    Logger.log('Character created: ' + name);
+function getPlayerData() {
+  // Lógica para obtener datos de los jugadores
 }
 
 function gameLoop() {
-    // Main game loop
-    while (true) {
-        // Game logic goes here
-        Logger.log('Game is running...');
-        Utilities.sleep(1000); // Wait for 1 second
-    }
+  // Lógica del bucle del juego
 }
 
-function endGame() {
-    // End the game
-    Logger.log('Game has ended!');
+function onUserJoin(userId) {
+  // Lógica para cuando un usuario se une
+}
+
+function updateGameState() {
+  // Lógica para actualizar el estado del juego
 }
